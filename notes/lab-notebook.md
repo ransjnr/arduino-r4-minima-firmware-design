@@ -309,3 +309,12 @@ All sources/guides are prepared. Physical results remain unconfirmed. Record det
 - Exercise 08: exercises/lesson_03/08_fault_recovery/evidence.md — not run on hardware.
 - Exercise 09: exercises/lesson_03/09_regression_suite/evidence.md — not run on hardware.
 - Exercise 10: exercises/lesson_03/10_verification_capstone/evidence.md — not run on hardware.
+
+## Device controller — application version 1.0.0
+
+- Complete source prepared for built-in LED and USB.
+- Host component tests and full Arduino CLI build passed; physical acceptance remains unconfirmed.
+- Build memory: 42,104 bytes program, 4,080 bytes global/static RAM.
+- Hardware evidence: projects/device_controller/HARDWARE_CHECKS.md
+- Build/upload result and observations:
+- Explanation of driver, controller, line reception, and cooperative scheduling:

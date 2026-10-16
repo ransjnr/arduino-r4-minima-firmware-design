@@ -21,7 +21,7 @@ We will introduce each topic when an experiment needs it. Progress depends on un
 
 Lesson 01 upload and timing experiment worked, as reported during practice. The saved Lesson 01 sketch currently uses 500 ms on and 500 ms off; keep it as your experiment.
 
-**Current work:** [Lesson 04 — Build a responsive device controller](lessons/04-firmware-project.md). Open `projects/device_controller/device_controller.ino` in VS Code; the workspace selects it for Verify/Upload. We now develop one application incrementally, starting with a nonblocking LED component and responsive command handling.
+**Current work:** [Lesson 04 — Build a responsive device controller](lessons/04-firmware-project.md). Open `projects/device_controller/device_controller.ino` in VS Code; the workspace selects it for Verify/Upload. The complete built-in-LED/USB application includes nonblocking patterns, mode control, validated settings, diagnostics, and component tests.
 
 Lessons 01 and 02 each contain ten prepared exercises. Lesson 03 now has all ten exercises, host checks, and optional connected-board tools. Prepared source, host checks, target builds, uploads, and physical acceptance are distinct milestones; record actual results rather than treating preparation as completion.
 
