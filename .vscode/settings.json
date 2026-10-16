@@ -1,0 +1,7 @@
+{
+  "editor.fontSize": 18,
+  "arduino.useArduinoCli": true,
+  "arduino.path": "",
+  "arduino.commandPath": "",
+  "arduino.disableIntelliSenseAutoGen": true
+}

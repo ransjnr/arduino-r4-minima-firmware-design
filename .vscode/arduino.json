@@ -1,0 +1,6 @@
+{
+  "port": "/dev/ttyACM0",
+  "board": "arduino:renesas_uno:minima",
+  "programmer": "cmsis-dap",
+  "sketch": "projects/device_controller/device_controller.ino"
+}

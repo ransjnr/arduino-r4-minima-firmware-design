@@ -1,0 +1,20 @@
+# Generated firmware and build output
+build/
+*.elf
+*.hex
+*.bin
+*.map
+
+# Local operating system files
+.DS_Store
+Thumbs.db
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Local Python tooling
+.venv/
+__pycache__/
+*.pyc

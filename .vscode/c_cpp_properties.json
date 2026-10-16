@@ -1,0 +1,64 @@
+{
+  "version": 4,
+  "configurations": [
+    {
+      "name": "Arduino",
+      "compilerPath": "/home/r26oppon/.arduino15/packages/arduino/tools/arm-none-eabi-gcc/7-2017q4/bin/arm-none-eabi-g++",
+      "compilerArgs": [
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-fno-use-cxa-atexit",
+        "-fno-rtti",
+        "-fno-exceptions"
+      ],
+      "intelliSenseMode": "gcc-arm",
+      "includePath": [
+        "/home/r26oppon/.arduino15/packages/arduino/hardware/renesas_uno/1.6.0/cores/arduino/tinyusb",
+        "/home/r26oppon/.arduino15/packages/arduino/hardware/renesas_uno/1.6.0/cores/arduino/api/deprecated",
+        "/home/r26oppon/.arduino15/packages/arduino/hardware/renesas_uno/1.6.0/cores/arduino/api/deprecated-avr-comp",
+        "/home/r26oppon/.arduino15/packages/arduino/hardware/renesas_uno/1.6.0/cores/arduino",
+        "/home/r26oppon/.arduino15/packages/arduino/hardware/renesas_uno/1.6.0/variants/MINIMA",
+        "/home/r26oppon/.arduino15/packages/arduino/tools/arm-none-eabi-gcc/7-2017q4/arm-none-eabi/include/c++/7.2.1",
+        "/home/r26oppon/.arduino15/packages/arduino/tools/arm-none-eabi-gcc/7-2017q4/arm-none-eabi/include/c++/7.2.1/arm-none-eabi",
+        "/home/r26oppon/.arduino15/packages/arduino/tools/arm-none-eabi-gcc/7-2017q4/arm-none-eabi/include/c++/7.2.1/backward",
+        "/home/r26oppon/.arduino15/packages/arduino/tools/arm-none-eabi-gcc/7-2017q4/lib/gcc/arm-none-eabi/7.2.1/include",
+        "/home/r26oppon/.arduino15/packages/arduino/tools/arm-none-eabi-gcc/7-2017q4/lib/gcc/arm-none-eabi/7.2.1/include-fixed",
+        "/home/r26oppon/.arduino15/packages/arduino/tools/arm-none-eabi-gcc/7-2017q4/arm-none-eabi/include",
+        "/home/r26oppon/.arduino15/packages/arduino/hardware/renesas_uno/1.6.0/variants/MINIMA/includes/ra/fsp/inc",
+        "/home/r26oppon/.arduino15/packages/arduino/hardware/renesas_uno/1.6.0/variants/MINIMA/includes/ra/fsp/inc/api",
+        "/home/r26oppon/.arduino15/packages/arduino/hardware/renesas_uno/1.6.0/variants/MINIMA/includes/ra/fsp/inc/instances",
+        "/home/r26oppon/.arduino15/packages/arduino/hardware/renesas_uno/1.6.0/variants/MINIMA/includes/ra/arm/CMSIS_5/CMSIS/Core/Include",
+        "/home/r26oppon/.arduino15/packages/arduino/hardware/renesas_uno/1.6.0/variants/MINIMA/includes/ra_gen",
+        "/home/r26oppon/.arduino15/packages/arduino/hardware/renesas_uno/1.6.0/variants/MINIMA/includes/ra_cfg/fsp_cfg/bsp",
+        "/home/r26oppon/.arduino15/packages/arduino/hardware/renesas_uno/1.6.0/variants/MINIMA/includes/ra_cfg/fsp_cfg",
+        "/home/r26oppon/.arduino15/packages/arduino/hardware/renesas_uno/1.6.0/variants/MINIMA/includes/ra/fsp/src/r_usb_basic/src/driver/inc",
+        "/home/r26oppon/.arduino15/packages/arduino/hardware/renesas_uno/1.6.0/variants/MINIMA/includes/ra/fsp/src/r_sce/crypto_procedures/src/sce5/plainkey/private/inc",
+        "/home/r26oppon/.arduino15/packages/arduino/hardware/renesas_uno/1.6.0/variants/MINIMA/includes/ra/fsp/src/r_sce/crypto_procedures/src/sce5/plainkey/public/inc",
+        "/home/r26oppon/.arduino15/packages/arduino/hardware/renesas_uno/1.6.0/variants/MINIMA/includes/ra/fsp/src/r_sce/common",
+        "/home/r26oppon/.arduino15/packages/arduino/hardware/renesas_uno/1.6.0/variants/MINIMA/includes/ra/fsp/src/r_sce"
+      ],
+      "forcedInclude": [
+        "/home/r26oppon/.arduino15/packages/arduino/hardware/renesas_uno/1.6.0/cores/arduino/Arduino.h"
+      ],
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "defines": [
+        "F_CPU=48000000",
+        "ARDUINO_UNOR4_MINIMA",
+        "ARDUINO=10607",
+        "PROJECT_NAME=\"/tmp/arduino/sketches/E8AF98B2A672BDCB8D29168B93AF02D3/04_character_commands.ino\"",
+        "ARDUINO_MINIMA",
+        "ARDUINO_ARCH_RENESAS_UNO",
+        "ARDUINO_ARCH_RENESAS",
+        "ARDUINO_FSP",
+        "_XOPEN_SOURCE=700",
+        "CFG_TUSB_MCU=OPT_MCU_RAXXX",
+        "USBCON",
+        "_RA_CORE=CM4",
+        "_RENESAS_RA_"
+      ]
+    }
+  ]
+}

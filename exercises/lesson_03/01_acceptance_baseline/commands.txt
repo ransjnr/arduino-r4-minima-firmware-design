@@ -1,0 +1,42 @@
+# Reference sequence checklist; send one command at a time, waiting for replies.
+# Do not paste comments into Serial Monitor.
+# A01 — physically reset first
+version
+status
+errors
+# A02
+on
+status
+status
+# A03
+set on 400
+set off 600
+status
+# A04
+set on bad
+set off 49
+unknown
+errors
+status
+# A05
+blink
+status
+# A06
+clear errors
+errors
+status
+# A07 — 31 x characters
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+errors
+# A08 — 32 x characters
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+errors
+# A09
+on
+status
+off
+status
+# A10 — physically reset and reconnect before these commands
+version
+status
+errors
